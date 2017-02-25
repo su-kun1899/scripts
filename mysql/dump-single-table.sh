@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# dump_single_table.sh
+# dump-single-table.sh
 #
 # -----------------------------------------------------------------------------
 # Purpose : テーブル単体でdumpします
@@ -7,12 +7,12 @@
 #
 # Description :
 #   1. 接続先データベースの情報はオプションで渡します
-#   2. dump_single_table.sh -? でオプションの詳細が表示されます
+#   2. dump-single-table.sh -? でオプションの詳細が表示されます
 #
 # Usage :
-#   $ dump_single_table.sh -t ${target_table_name} -n ${dump_file_name} -h ${host_name} -P ${port_num} -D ${db_name} -u ${user_name}
+#   $ dump-single-table.sh -t ${target_table_name} -n ${dump_file_name} -h ${host_name} -P ${port_num} -D ${db_name} -u ${user_name}
 #
-#   Example) $ dump_single_table.sh -t sample_table -n sample.sql -h 127.0.0.1 -P 3306 -D test -u root
+#   Example) $ dump-single-table.sh -t sample_table -n sample.sql -h 127.0.0.1 -P 3306 -D test -u root
 #
 #
 # -----------------------------------------------------------------------------

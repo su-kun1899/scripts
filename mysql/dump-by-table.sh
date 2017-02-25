@@ -1,5 +1,5 @@
 #!/bin/bash
-# dump_by_table.sh
+# dump-by-table.sh
 #
 # -----------------------------------------------------------------------------
 # Purpose : テーブルごとのdmlにしてmysqldumpを実行します
@@ -7,13 +7,13 @@
 #
 # Description :
 #   1. 接続先データベースの情報はオプションで渡します
-#   2. dump_by_table.sh -? でオプションの詳細が表示されます
+#   2. dump-by-table.sh -? でオプションの詳細が表示されます
 #   3. DMLは./dml配下に出力されます
 #
 # Usage :
-#   $ dump_by_table.sh -h ${host_name} -P ${port_num} -D ${db_name} -u ${user_name}
+#   $ dump-by-table.sh -h ${host_name} -P ${port_num} -D ${db_name} -u ${user_name}
 #
-#   Example) $ dump_by_table.sh -h 127.0.0.1 -P 3306 -D test -u root
+#   Example) $ dump-by-table.sh -h 127.0.0.1 -P 3306 -D test -u root
 #
 #
 # -----------------------------------------------------------------------------
